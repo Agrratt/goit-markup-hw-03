@@ -80,6 +80,8 @@ width: 1200px;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
+
+  margin-right: 93px;
 }
 
 .logo:hover,
@@ -108,8 +110,7 @@ width: 1200px;
 .header-nav {
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-left: 93px;
-
+  
   display: block;
 }
 
@@ -265,7 +266,7 @@ margin-top: 30px;
   margin-right: 30px;
 }
 
-.team-title {
+.team-box {
 padding-top: 30px;
 padding-bottom: 30px;
 }
@@ -330,17 +331,17 @@ padding-bottom: 30px;
 }
 
 /*-------------- portfolio проекты------------ */
-.portfolio-projects {
-  margin-top: 34px;
-  margin-bottom: 94px;
-}
+
 .projects-list {
-display: flex;
+  display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 60px) / 3);
 
   margin: 0;
   padding: 0;
+
+  margin-top: 34px;
+  margin-bottom: 94px;
   
 }
 
